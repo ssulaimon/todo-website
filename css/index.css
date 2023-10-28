@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
+  font-family: "Roboto", sans-serif;
+  --primary-color: #e57368;
+  background-color: #fefdfb;
+}
+/*
+all tags css 
+ */
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  margin: 20px 50px;
+  font-size: 16px;
+  position: relative;
+}
+
+/* 
+tags css 
+*/
+div.links-container {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+#homepage-link {
+  color: red;
+}
+.links-list {
+  display: inline-block;
+}
+
+.nav-links {
+  font-size: 13px;
+  color: black;
+  margin: 0px 8px;
+  font-weight: 400;
+}
+.nav-links:hover {
+  color: red;
+}
+#button-links,
+.button-links {
+  font-size: 13px;
+  color: white;
+  background-color: var(--primary-color);
+  margin: 0px 8px;
+  font-weight: 400;
+  padding: 5px;
+  border-radius: 5px;
+}
+.button-links {
+  width: 100px;
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+}
+.price {
+  border-right: 1px solid grey;
+  padding: 10px;
+}
+.title {
+  text-align: center;
+  font-weight: 500;
+}
+.moto,
+#trust,
+#app-review {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 12px;
+  color: grey;
+}
+#trust {
+  color: black;
+}
+
+#banner-image {
+  display: block;
+  margin: 0px auto;
+}
+#logo-container {
+  text-align: center;
+}
+.logos {
+  height: 30px;
+}
+#use-case-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0;
+}
+.use-case {
+  margin: 10px 20px;
+}
+.use-case > h6 {
+  color: var(--primary-color);
+}
+.use-case > p {
+  font-size: 12px;
+  color: grey;
+}
+.use-case > h3 {
+  margin: 5px 0;
+}
+#sub-title {
+  text-align: center;
+  margin: 10px 0;
+  line-height: 30px;
+}
+#features-illustration {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.illustration {
+  height: 150px;
+  width: 150px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+}
+.illustration > img {
+  display: block;
+  margin: 0px auto;
+}
+#testimony-container {
+  margin: 30px 10vw;
+  display: flex;
+  flex-direction: row;
+}
+footer {
+  background-color: #fcf5ed;
+  padding: 20px 10vw 0 10vw;
+}
+#app-title {
+  text-align: center;
+  background-color: #fcf5ed;
+  margin-bottom: 10px;
+}
+#app-review {
+  background-color: #fcf5ed;
+}
+#download-app-btn {
+  color: grey;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  margin: 20px 0px;
+  background-color: #fcf5ed;
+}
+#divider {
+  height: 150px;
+  border-bottom: 1px solid black;
+  background-color: #fcf5ed;
+}
+#footer-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #fcf5ed;
+}
+#footer-container > p {
+  background-color: #fcf5ed;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-right: 5vw;
+  font-weight: 500;
+}
+#footer-container > ul {
+  background-color: #fcf5ed;
+  margin-right: 5vw;
+}
+
+.bottom-links {
+  font-size: 12px;
+  margin: 10px 0;
+  background-color: #fcf5ed;
+}
+.bottom-links > a {
+  color: black;
+  font-weight: 500;
+  background-color: #fcf5ed;
+}
+.bottom-links > a:hover {
+  color: #e57368;
+}
+.icons {
+  background-color: #fcf5ed;
+}
+.social-icons {
+  background-color: #fcf5ed;
+  font-size: 15px;
+}
