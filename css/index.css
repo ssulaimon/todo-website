@@ -72,13 +72,14 @@ div.links-container {
 .title {
   text-align: center;
   font-weight: 500;
+  font-size: 40px;
 }
 .moto,
 #trust,
 #app-review {
   text-align: center;
   margin: 20px 0px;
-  font-size: 12px;
+  font-size: 16px;
   color: grey;
 }
 #trust {
